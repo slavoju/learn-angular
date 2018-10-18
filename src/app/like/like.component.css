@@ -1,0 +1,10 @@
+h2 {
+    padding: 30px;
+}
+span {
+    color: #ccc;
+    cursor: pointer;
+}
+span.isLiked {
+    color: deeppink;
+}

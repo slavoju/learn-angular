@@ -1,0 +1,15 @@
+.panel-group {
+    margin: 0px 20px 0px 50px;
+    width: 300px;
+    font-size: 20px;
+}
+.panel-heading {
+    width: 100%;
+    position: relative;
+    font-weight: bold;
+}
+span{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}

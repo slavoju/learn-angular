@@ -1,0 +1,16 @@
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading"
+    (click)="onClick()"
+    [ngStyle]="{'backgroundColor': !unfolded ? '#fff' : ''}">
+    <span class="glyphicon"
+    [ngClass]="{
+      'glyphicon-chevron-up': unfolded,
+      'glyphicon-chevron-down': !unfolded
+    }"
+    ></span>{{title}}</div>
+    <div class="panel-body" *ngIf="unfolded">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</div>
