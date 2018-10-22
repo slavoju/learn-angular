@@ -16,6 +16,8 @@ import { CoursesFormComponent } from './courses-form/courses-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { ChangePasswordFormComponent } from './changepassword-form/changepassword-form.component';
 import { PostsComponent } from './posts/posts.component'
+import { DataService } from './services/data.service';
+import { PostService } from './services/post.service';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import { PostsComponent } from './posts/posts.component'
     HttpModule
   ],
   providers: [
+    DataService,
+    PostService,
     CoursesService,
     AuthorsService
   ],
