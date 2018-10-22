@@ -18,6 +18,8 @@ import { ChangePasswordFormComponent } from './changepassword-form/changepasswor
 import { PostsComponent } from './posts/posts.component'
 import { DataService } from './services/data.service';
 import { PostService } from './services/post.service';
+import { FollowersComponent } from './followers/followers.component';
+import { FollowersService } from './services/followers.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { PostService } from './services/post.service';
     CoursesFormComponent,
     SignupFormComponent,
     ChangePasswordFormComponent,
-    PostsComponent
+    PostsComponent,
+    FollowersComponent
   ],
   imports: [
     BrowserModule,
@@ -41,6 +44,7 @@ import { PostService } from './services/post.service';
   providers: [
     DataService,
     PostService,
+    FollowersService,
     CoursesService,
     AuthorsService
   ],
