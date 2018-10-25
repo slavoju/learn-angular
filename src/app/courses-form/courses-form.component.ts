@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./courses-form.component.css']
 })
 export class CoursesFormComponent {
-  
+
   categories = [
     { id: 1, name: 'Development' },
     { id: 2, name: 'Art' },

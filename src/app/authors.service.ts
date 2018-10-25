@@ -9,8 +9,7 @@ export class AuthorsService {
 
   authors = ['Jan Nowak', 'Zbigniew Ziobro', 'Roman Giertych'];
 
-  getAuthors() 
-  {
+  getAuthors() {
     return this.authors;
   }
 }

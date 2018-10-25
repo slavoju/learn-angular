@@ -11,7 +11,7 @@ export class ZippyComponent {
 
   unfolded = false;
   @Input('title')
-  title = "test title";
+  title = 'test title';
 
   onClick() {
     this.unfolded  = !this.unfolded;

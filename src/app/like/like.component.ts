@@ -9,17 +9,15 @@ export class LikeComponent implements OnInit {
 
   constructor() { }
 
-  @Input()  isActive : boolean;
+  @Input()  isActive: boolean;
   @Input()  likesCount: number;
   @Output()  change = new EventEmitter();
 
-  onClicked()
-  {
+  onClicked() {
     this.isActive = !this.isActive;
-    if(this.isActive) {
+    if (this.isActive) {
       this.likesCount++;
-    }
-    else {
+    } else {
       this.likesCount--;
     }
 

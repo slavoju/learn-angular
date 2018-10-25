@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<posts></posts>\n"
+module.exports = "\r\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -104,18 +104,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
 /* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _courses_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./courses.service */ "./src/app/courses.service.ts");
-/* harmony import */ var _authors_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./authors.service */ "./src/app/authors.service.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _course_course_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./course/course.component */ "./src/app/course/course.component.ts");
-/* harmony import */ var _courses_courses_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./courses/courses.component */ "./src/app/courses/courses.component.ts");
-/* harmony import */ var _authors_authors_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./authors/authors.component */ "./src/app/authors/authors.component.ts");
-/* harmony import */ var _like_like_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./like/like.component */ "./src/app/like/like.component.ts");
-/* harmony import */ var _zippy_zippy_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./zippy/zippy.component */ "./src/app/zippy/zippy.component.ts");
-/* harmony import */ var _courses_form_courses_form_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./courses-form/courses-form.component */ "./src/app/courses-form/courses-form.component.ts");
-/* harmony import */ var _signup_form_signup_form_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./signup-form/signup-form.component */ "./src/app/signup-form/signup-form.component.ts");
-/* harmony import */ var _changepassword_form_changepassword_form_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./changepassword-form/changepassword-form.component */ "./src/app/changepassword-form/changepassword-form.component.ts");
-/* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
+/* harmony import */ var _common_app_error_handler__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./common/app-error-handler */ "./src/app/common/app-error-handler.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _courses_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./courses.service */ "./src/app/courses.service.ts");
+/* harmony import */ var _authors_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./authors.service */ "./src/app/authors.service.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _course_course_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./course/course.component */ "./src/app/course/course.component.ts");
+/* harmony import */ var _courses_courses_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./courses/courses.component */ "./src/app/courses/courses.component.ts");
+/* harmony import */ var _authors_authors_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./authors/authors.component */ "./src/app/authors/authors.component.ts");
+/* harmony import */ var _like_like_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./like/like.component */ "./src/app/like/like.component.ts");
+/* harmony import */ var _zippy_zippy_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./zippy/zippy.component */ "./src/app/zippy/zippy.component.ts");
+/* harmony import */ var _courses_form_courses_form_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./courses-form/courses-form.component */ "./src/app/courses-form/courses-form.component.ts");
+/* harmony import */ var _signup_form_signup_form_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./signup-form/signup-form.component */ "./src/app/signup-form/signup-form.component.ts");
+/* harmony import */ var _changepassword_form_changepassword_form_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./changepassword-form/changepassword-form.component */ "./src/app/changepassword-form/changepassword-form.component.ts");
+/* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./services/data.service */ "./src/app/services/data.service.ts");
+/* harmony import */ var _services_post_service__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./services/post.service */ "./src/app/services/post.service.ts");
+/* harmony import */ var _followers_followers_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./followers/followers.component */ "./src/app/followers/followers.component.ts");
+/* harmony import */ var _services_followers_service__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./services/followers.service */ "./src/app/services/followers.service.ts");
+/* harmony import */ var _archive_list_archive_list_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./archive-list/archive-list.component */ "./src/app/archive-list/archive-list.component.ts");
+/* harmony import */ var _archive_archive_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./archive/archive.component */ "./src/app/archive/archive.component.ts");
+/* harmony import */ var _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -138,37 +147,189 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
+
+
+
+
+
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
-                _course_course_component__WEBPACK_IMPORTED_MODULE_7__["CourseComponent"],
-                _courses_courses_component__WEBPACK_IMPORTED_MODULE_8__["CoursesComponent"],
-                _authors_authors_component__WEBPACK_IMPORTED_MODULE_9__["AuthorsComponent"],
-                _like_like_component__WEBPACK_IMPORTED_MODULE_10__["LikeComponent"],
-                _zippy_zippy_component__WEBPACK_IMPORTED_MODULE_11__["ZippyComponent"],
-                _courses_form_courses_form_component__WEBPACK_IMPORTED_MODULE_12__["CoursesFormComponent"],
-                _signup_form_signup_form_component__WEBPACK_IMPORTED_MODULE_13__["SignupFormComponent"],
-                _changepassword_form_changepassword_form_component__WEBPACK_IMPORTED_MODULE_14__["ChangePasswordFormComponent"],
-                _posts_posts_component__WEBPACK_IMPORTED_MODULE_15__["PostsComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"],
+                _course_course_component__WEBPACK_IMPORTED_MODULE_9__["CourseComponent"],
+                _courses_courses_component__WEBPACK_IMPORTED_MODULE_10__["CoursesComponent"],
+                _authors_authors_component__WEBPACK_IMPORTED_MODULE_11__["AuthorsComponent"],
+                _like_like_component__WEBPACK_IMPORTED_MODULE_12__["LikeComponent"],
+                _zippy_zippy_component__WEBPACK_IMPORTED_MODULE_13__["ZippyComponent"],
+                _courses_form_courses_form_component__WEBPACK_IMPORTED_MODULE_14__["CoursesFormComponent"],
+                _signup_form_signup_form_component__WEBPACK_IMPORTED_MODULE_15__["SignupFormComponent"],
+                _changepassword_form_changepassword_form_component__WEBPACK_IMPORTED_MODULE_16__["ChangePasswordFormComponent"],
+                _posts_posts_component__WEBPACK_IMPORTED_MODULE_17__["PostsComponent"],
+                _followers_followers_component__WEBPACK_IMPORTED_MODULE_20__["FollowersComponent"],
+                _archive_list_archive_list_component__WEBPACK_IMPORTED_MODULE_22__["ArchiveListComponent"],
+                _archive_archive_component__WEBPACK_IMPORTED_MODULE_23__["ArchiveComponent"],
+                _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_24__["NotFoundComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormsModule"],
                 _angular_forms__WEBPACK_IMPORTED_MODULE_1__["ReactiveFormsModule"],
-                _angular_http__WEBPACK_IMPORTED_MODULE_2__["HttpModule"]
+                _angular_http__WEBPACK_IMPORTED_MODULE_2__["HttpModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot([
+                    { path: '', component: _archive_list_archive_list_component__WEBPACK_IMPORTED_MODULE_22__["ArchiveListComponent"] },
+                    { path: 'archive/:year/:month', component: _archive_archive_component__WEBPACK_IMPORTED_MODULE_23__["ArchiveComponent"] },
+                    { path: '**', component: _not_found_not_found_component__WEBPACK_IMPORTED_MODULE_24__["NotFoundComponent"] }
+                ])
             ],
             providers: [
-                _courses_service__WEBPACK_IMPORTED_MODULE_4__["CoursesService"],
-                _authors_service__WEBPACK_IMPORTED_MODULE_5__["AuthorsService"]
+                _services_data_service__WEBPACK_IMPORTED_MODULE_18__["DataService"],
+                _services_post_service__WEBPACK_IMPORTED_MODULE_19__["PostService"],
+                _services_followers_service__WEBPACK_IMPORTED_MODULE_21__["FollowersService"],
+                _courses_service__WEBPACK_IMPORTED_MODULE_6__["CoursesService"],
+                _authors_service__WEBPACK_IMPORTED_MODULE_7__["AuthorsService"],
+                { provide: _angular_core__WEBPACK_IMPORTED_MODULE_3__["ErrorHandler"], useClass: _common_app_error_handler__WEBPACK_IMPORTED_MODULE_4__["AppErrorHandler"] }
             ],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/archive-list/archive-list.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/archive-list/archive-list.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/archive-list/archive-list.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/archive-list/archive-list.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>\n  Home Page\n</h1>\n<ul>\n  <li *ngFor=\"let archive of archiveLinks\">\n       <a [routerLink]=\"['archive',archive.year,archive.month]\">{{archive.year}}/{{archive.month}}</a>\n  </li>\n</ul>\n"
+
+/***/ }),
+
+/***/ "./src/app/archive-list/archive-list.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/archive-list/archive-list.component.ts ***!
+  \********************************************************/
+/*! exports provided: ArchiveListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArchiveListComponent", function() { return ArchiveListComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var ArchiveListComponent = /** @class */ (function () {
+    function ArchiveListComponent() {
+        this.archiveLinks = [{ 'year': '2017', 'month': '1' }, { 'year': '2017', 'month': '2' }, { 'year': '2017', 'month': '3' }];
+    }
+    ArchiveListComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'archive-list',
+            template: __webpack_require__(/*! ./archive-list.component.html */ "./src/app/archive-list/archive-list.component.html"),
+            styles: [__webpack_require__(/*! ./archive-list.component.css */ "./src/app/archive-list/archive-list.component.css")]
+        })
+    ], ArchiveListComponent);
+    return ArchiveListComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/archive/archive.component.css":
+/*!***********************************************!*\
+  !*** ./src/app/archive/archive.component.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/archive/archive.component.html":
+/*!************************************************!*\
+  !*** ./src/app/archive/archive.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>\n  Archive for {{year}} / {{month}}\n</h1>\n\n<button class=\"btn\" routerLink=\"\">View all</button>\n"
+
+/***/ }),
+
+/***/ "./src/app/archive/archive.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/archive/archive.component.ts ***!
+  \**********************************************/
+/*! exports provided: ArchiveComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ArchiveComponent", function() { return ArchiveComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ArchiveComponent = /** @class */ (function () {
+    function ArchiveComponent(route) {
+        this.route = route;
+    }
+    ArchiveComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.paramMap
+            .subscribe(function (params) {
+            _this.year = params.get('year');
+            _this.month = params.get('month');
+        });
+    };
+    ArchiveComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'archive',
+            template: __webpack_require__(/*! ./archive.component.html */ "./src/app/archive/archive.component.html"),
+            styles: [__webpack_require__(/*! ./archive.component.css */ "./src/app/archive/archive.component.css")]
+        }),
+        __metadata("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]])
+    ], ArchiveComponent);
+    return ArchiveComponent;
 }());
 
 
@@ -406,6 +567,30 @@ var ChangePasswordFormValidators = /** @class */ (function () {
         });
     };
     return ChangePasswordFormValidators;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/common/app-error-handler.ts":
+/*!*********************************************!*\
+  !*** ./src/app/common/app-error-handler.ts ***!
+  \*********************************************/
+/*! exports provided: AppErrorHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppErrorHandler", function() { return AppErrorHandler; });
+var AppErrorHandler = /** @class */ (function () {
+    function AppErrorHandler() {
+    }
+    AppErrorHandler.prototype.handleError = function (error) {
+        alert('An unexpected error occurred.');
+        console.log(error);
+    };
+    return AppErrorHandler;
 }());
 
 
@@ -726,6 +911,74 @@ var CoursesComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/followers/followers.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/followers/followers.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".avatar {\r\n    width: 80px;\r\n    height: 80px;\r\n    border-radius: 100%;\r\n}"
+
+/***/ }),
+
+/***/ "./src/app/followers/followers.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/followers/followers.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h1>My followers</h1>\r\n<div *ngFor=\"let follower of followers\" class=\"media\">\r\n  <div class=\"media-left\">\r\n    <img class=\"media-object avatar\" src=\"{{follower.avatar_url}}\" alt=\"Generic placeholder image\">\r\n  </div>\r\n  <div class=\"media-body\">\r\n    <h4 class=\"media-heading\">{{follower.login}}</h4>\r\n    <p><a href=\"{{follower.html_url}}\">{{follower.html_url}}</a></p>\r\n  </div>\r\n</div>\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/followers/followers.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/followers/followers.component.ts ***!
+  \**************************************************/
+/*! exports provided: FollowersComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FollowersComponent", function() { return FollowersComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _services_followers_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/followers.service */ "./src/app/services/followers.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FollowersComponent = /** @class */ (function () {
+    function FollowersComponent(service) {
+        this.service = service;
+    }
+    FollowersComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.service.getAll().subscribe(function (followers) { return _this.followers = followers; });
+    };
+    FollowersComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'followers',
+            template: __webpack_require__(/*! ./followers.component.html */ "./src/app/followers/followers.component.html"),
+            styles: [__webpack_require__(/*! ./followers.component.css */ "./src/app/followers/followers.component.css")]
+        }),
+        __metadata("design:paramtypes", [_services_followers_service__WEBPACK_IMPORTED_MODULE_1__["FollowersService"]])
+    ], FollowersComponent);
+    return FollowersComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/like/like.component.css":
 /*!*****************************************!*\
   !*** ./src/app/like/like.component.css ***!
@@ -806,6 +1059,69 @@ var LikeComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], LikeComponent);
     return LikeComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/not-found/not-found.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/not-found/not-found.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/not-found/not-found.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/not-found/not-found.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  not-found works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/not-found/not-found.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/not-found/not-found.component.ts ***!
+  \**************************************************/
+/*! exports provided: NotFoundComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotFoundComponent", function() { return NotFoundComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NotFoundComponent = /** @class */ (function () {
+    function NotFoundComponent() {
+    }
+    NotFoundComponent.prototype.ngOnInit = function () {
+    };
+    NotFoundComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-not-found',
+            template: __webpack_require__(/*! ./not-found.component.html */ "./src/app/not-found/not-found.component.html"),
+            styles: [__webpack_require__(/*! ./not-found.component.css */ "./src/app/not-found/not-found.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], NotFoundComponent);
+    return NotFoundComponent;
 }());
 
 
@@ -907,7 +1223,7 @@ var PostsComponent = /** @class */ (function () {
     };
     PostsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
-            selector: 'app-posts',
+            selector: 'posts',
             template: __webpack_require__(/*! ./posts.component.html */ "./src/app/posts/posts.component.html"),
             styles: [__webpack_require__(/*! ./posts.component.css */ "./src/app/posts/posts.component.css")]
         }),
@@ -1003,6 +1319,59 @@ var DataService = /** @class */ (function () {
     ], DataService);
     return DataService;
 }());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/followers.service.ts":
+/*!***********************************************!*\
+  !*** ./src/app/services/followers.service.ts ***!
+  \***********************************************/
+/*! exports provided: FollowersService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FollowersService", function() { return FollowersService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _data_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./data.service */ "./src/app/services/data.service.ts");
+/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var FollowersService = /** @class */ (function (_super) {
+    __extends(FollowersService, _super);
+    function FollowersService(http) {
+        return _super.call(this, 'https://api.github.com/users/mosh-hamedani/followers', http) || this;
+    }
+    FollowersService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_http__WEBPACK_IMPORTED_MODULE_2__["Http"]])
+    ], FollowersService);
+    return FollowersService;
+}(_data_service__WEBPACK_IMPORTED_MODULE_1__["DataService"]));
 
 
 

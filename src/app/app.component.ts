@@ -13,7 +13,7 @@ export class AppComponent {
       body: 'Here is the body of a tweet...',
       isLiked: false,
       likesCount: 0
-  }
+  };
 
   onClick(event) {
     this.tweet.isLiked = event.isActive;

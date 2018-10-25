@@ -17,14 +17,14 @@ import { ZippyComponent } from './zippy/zippy.component';
 import { CoursesFormComponent } from './courses-form/courses-form.component';
 import { SignupFormComponent } from './signup-form/signup-form.component';
 import { ChangePasswordFormComponent } from './changepassword-form/changepassword-form.component';
-import { PostsComponent } from './posts/posts.component'
+import { PostsComponent } from './posts/posts.component';
 import { DataService } from './services/data.service';
 import { PostService } from './services/post.service';
 import { FollowersComponent } from './followers/followers.component';
 import { FollowersService } from './services/followers.service';
 import { ArchiveListComponent } from './archive-list/archive-list.component';
 import { ArchiveComponent } from './archive/archive.component';
-import { NotFoundComponent } from './not-found/not-found.component'; 
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +45,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule, 
+    FormsModule,
     ReactiveFormsModule,
     HttpModule,
     RouterModule.forRoot([

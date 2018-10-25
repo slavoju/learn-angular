@@ -15,8 +15,8 @@ export class ArchiveComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap
       .subscribe(params => {
-        this.year = params.get('year')
-        this.month = params.get('month')
+        this.year = params.get('year');
+        this.month = params.get('month');
       });
   }
 

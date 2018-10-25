@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup, Validators, FormBuilder } from '@angular/forms'
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { ChangePasswordFormValidators } from './changepassword-form.validators';
 
 @Component({
@@ -10,7 +10,7 @@ import { ChangePasswordFormValidators } from './changepassword-form.validators';
 export class ChangePasswordFormComponent {
   form: FormGroup;
 
-  constructor(fb : FormBuilder){
+  constructor(fb: FormBuilder) {
     this.form = fb.group({
       oldpassword: ['', Validators.required, ChangePasswordFormValidators.oldPasswordValidator],
       newpassword: ['', Validators.required],

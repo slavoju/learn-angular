@@ -8,9 +8,9 @@ import { AuthorsService } from '../authors.service';
 })
 export class AuthorsComponent implements OnInit {
 
-  public authors : any;
+  public authors: any;
 
-  constructor(authorsService: AuthorsService) {  
+  constructor(authorsService: AuthorsService) {
     this.authors = authorsService.getAuthors();
   }
 
