@@ -55,7 +55,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     ])
   ],
   providers: [
-    DataService,
+    // DataService,
     PostService,
     FollowersService,
     CoursesService,
